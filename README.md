@@ -34,22 +34,18 @@ The project also contains various utility functions for file management, display
 
 Upon running the main function, the user will be presented with a menu. Depending on the user's choice, the respective utility function will be executed.
 
-The menu provides options to:
+   - Edit these files with a text editor or an IDE of your choice. Save the changes.
 
-1. Read the file.
-2. Add a new item to the file.
-3. Search for an Item in the file.
-4. Save the grade item into a file.
-5. Display a list of grade items on screen.
-6. Display a summary of grade items.
-7. Exit
+## Build the Program
+   - Open a terminal or command prompt.
+   - Navigate to the directory where your source files and the `makefile` are located.
+   - Simply type `make` and press `Enter`. This command will invoke the makefile to compile and link the code files.
+   - The makefile will produce an executable named `cp` (as specified by the `TARGET` variable).
 
-After completing a task, the user can return to the main menu or exit the program.
+### Run the Program
+   - In the same terminal or command prompt, type `./cp` and press `Enter` to run the program.
+     
+### Clean the Build**:
+   - If you want to clean up the intermediate files (`*.o`) and the executable, type `make clean` in the terminal or command prompt. This will remove all the object files and the executable, ensuring a fresh build the next time you run `make`.
 
-## Build & Run
 
-Currently, no specific build or run instructions are provided. You can compile the provided `.cpp` files and execute the binary to start the application.
-
----
-
-This is a basic README file and might need more information, such as dependencies, system requirements, or more detailed usage examples. You should adapt this to better fit your project's needs.
